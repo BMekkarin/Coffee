@@ -2,10 +2,10 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Lottie from "lottie-react";
-import animationData from "../asset/Animation.json";
-import animationData2 from "../asset/Animation2.json";
-import animationData3 from "../asset/Animation3.json";
-import animationData4 from "../asset/Animation4.json";
+import animationData from "../../asset/Animation.json";
+import animationData2 from "../../asset/Animation2.json";
+import animationData3 from "../../asset/Animation3.json";
+import animationData4 from "../../asset/Animation4.json";
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';

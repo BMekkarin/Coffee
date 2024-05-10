@@ -1,14 +1,14 @@
 import "./App.css";
-import Index from "./component/index";
-import Contact from "./component/contact";
+import Index from "./component/index/index";
+import Contact from "./component/contact/contact";
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Switch, Route } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Swiper from "./component/swipper";
+import Swiper from "./component/swipper/swipper";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Scroll from "./component/scoll";
+import Scroll from "./component/scoll/scoll";
 // import { fas } from '@awesome.me/kit-KIT_CODE/icons'
 function App() {
   

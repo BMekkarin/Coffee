@@ -1,8 +1,8 @@
 import Lottie from "lottie-react";
-import animationData from "../asset/Animation2.json";
+import animationData from "../../asset/Animation2.json";
 import  './index.css';
-import Contact from './contact';
-import Swipper from './swipper';
+import Contact from '../contact/contact'
+import Swipper from '../swipper/swipper';
 function Index() {
   return (
     <>
