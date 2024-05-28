@@ -16,7 +16,7 @@ function Product() {
       <h1 style={{textAlign:"center",marginBottom:"50px"}}>สินค้าตัวอย่าง</h1>
       <CardGroup>
         <Row>
-          <Col>
+          <Col xs={12} md={6} lg ={3}>
             <Card className="h-100">
               <Card.Img className="img" variant="top" src={imgLate} />
               <Card.Body>
@@ -27,7 +27,7 @@ function Product() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col xs={12} md={6} lg ={3}>
             <Card className="h-100">
               <Card.Img className="img" variant="top" src={imgcoffee} />
               <Card.Body>

@@ -21,7 +21,7 @@ function Index() {
       <div id="swipper">
       <Swipper />
       </div>
-      <div>
+      <div id="product">
         <Product />
       </div>
       <div id="test" className="contact">
