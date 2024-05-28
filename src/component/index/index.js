@@ -3,6 +3,7 @@ import animationData from "../../asset/Animation2.json";
 import  './index.css';
 import Contact from '../contact/contact'
 import Swipper from '../swipper/swipper';
+import Product from '../product/product';
 function Index() {
   return (
     <>
@@ -19,6 +20,9 @@ function Index() {
       </div>
       <div id="swipper">
       <Swipper />
+      </div>
+      <div>
+        <Product />
       </div>
       <div id="test" className="contact">
       <Contact />
